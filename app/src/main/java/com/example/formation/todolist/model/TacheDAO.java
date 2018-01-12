@@ -1,16 +1,13 @@
-package database;
+package com.example.formation.todolist.model;
 
 import android.database.Cursor;
 import android.database.sqlite.SQLiteException;
 
-
 import java.util.ArrayList;
 import java.util.List;
 
-import model.Tache;
 
-
-public class TacheDAO implements DAOInterface<Tache>{
+public class TacheDAO implements DAOInterface<Tache> {
 
     private DatabaseHandler db;
 

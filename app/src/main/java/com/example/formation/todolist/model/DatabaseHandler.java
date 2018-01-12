@@ -1,4 +1,4 @@
-package database;
+package com.example.formation.todolist.model;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

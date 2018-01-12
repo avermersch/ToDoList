@@ -1,3 +1,5 @@
+package com.example.formation.todolist;
+
 import android.app.Activity;
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -9,11 +11,9 @@ import android.widget.ArrayAdapter;
 import android.widget.CheckBox;
 import android.widget.TextView;
 
-import com.example.formation.todolist.R;
+import com.example.formation.todolist.model.Tache;
 
 import java.util.List;
-
-import model.Tache;
 
 /**
  * Created by Formation on 11/01/2018.

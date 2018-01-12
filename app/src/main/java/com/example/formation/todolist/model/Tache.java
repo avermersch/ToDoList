@@ -1,4 +1,4 @@
-package model;
+package com.example.formation.todolist.model;
 
 
 public class Tache {

@@ -1,3 +1,5 @@
+package com.example.formation.todolist;
+
 import android.app.ActionBar;
 import android.content.ContentValues;
 import android.content.Intent;
@@ -10,9 +12,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.formation.todolist.R;
+import com.example.formation.todolist.model.DatabaseHandler;
 
-import database.DatabaseHandler;
 
 public class TacheActivity extends AppCompatActivity {
 

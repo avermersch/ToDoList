@@ -7,17 +7,16 @@
 
         <CheckedTextView
             android:id="@+id/checkedTextView"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="3"
+            android:layout_weight="14"
             android:text="Tache" />
 
         <CheckBox
             android:id="@+id/checkbox"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Case"
             android:onClick="onValid" />
 
 
