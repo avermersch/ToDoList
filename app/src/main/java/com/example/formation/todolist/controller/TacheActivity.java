@@ -1,4 +1,4 @@
-package com.example.formation.todolist;
+package com.example.formation.todolist.controller;
 
 import android.app.ActionBar;
 import android.content.ContentValues;
@@ -12,6 +12,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.example.formation.todolist.R;
 import com.example.formation.todolist.model.DatabaseHandler;
 
 

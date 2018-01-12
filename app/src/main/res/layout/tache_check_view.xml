@@ -5,11 +5,11 @@
     android:orientation="horizontal">
 
 
-        <CheckedTextView
-            android:id="@+id/checkedTextView"
+        <TextView
+            android:id="@+id/TextViewCheck"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="14"
+            android:layout_weight="10"
             android:text="Tache" />
 
         <CheckBox

@@ -1,4 +1,4 @@
-package com.example.formation.todolist;
+package com.example.formation.todolist.controller;
 
 import android.app.Activity;
 import android.content.Context;
@@ -11,6 +11,7 @@ import android.widget.ArrayAdapter;
 import android.widget.CheckBox;
 import android.widget.TextView;
 
+import com.example.formation.todolist.R;
 import com.example.formation.todolist.model.Tache;
 
 import java.util.List;
@@ -45,7 +46,7 @@ public class TacheArrayAdapter extends ArrayAdapter {
         Tache tacheData = this.data.get(position);
 
         //Liaison entre les données et la vue
-        TextView tacheTextView = view.findViewById(R.id.checkedTextView);
+        TextView tacheTextView = view.findViewById(R.id.TextViewCheck);
         tacheTextView.setText(tacheData.getTache());
 
         CheckBox checkBox = view.findViewById(R.id.checkbox);
